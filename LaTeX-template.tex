@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{pdfsync}     % Line highlighting in Skim
+\usepackage{polyglossia} % Cyrillic & more in XeLaTeX
+  \newfontfamily\cyrillicfont{Cochin} % Default typeface does not have cyrillic glyphs, so it is necessary to explicitly set another.
+  \setdefaultlanguage{russian} % why this is needed I cannot fathom.
+% generally, see
+% https://github.com/search?q=%5Cnewfontfamily%5Ccyrillicfont&type=Code 
+
+
+\begin{document}
+oh
+
+hai
+
+
+how do you do 
+there
+
+how wold you like cyrillic: 
+\begin{itemize}
+\item хохохо
+\item хахаха
+\end{itemize}
+this is the first line after itemize. it is outdented.
+
+суа $\leftarrow$ кириллица
+
+cya $\leftarrow$ roman
+
+I see you won't. That's a pity.
+
+\section{can we have accented european characters here as well?}
+õöôø
+
+yes, we can.
+
+\end{document}
+
